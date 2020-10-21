@@ -1,0 +1,45 @@
+"","point_id","visit","species","sex","count"
+"1","Ps01","5","Small Ground Finch","M",2
+"2","Ps06","2","Warbler Finch","other",2
+"3","Ps06","3","Warbler Finch","other",2
+"4","Ps06","3","Warbler Finch","M",2
+"5","Ps08","2","Small Ground Finch","M",2
+"6","Ps08","4","Small Tree Finch","other",2
+"7","Ps11","1","Medium Ground Finch","other",2
+"8","Ps11","1","Medium Ground Finch","M",2
+"9","Ps11","2","Medium Ground Finch","other",2
+"10","Ps11","2","Small Ground Finch","other",4
+"11","Ps11","2","Small Ground Finch","M",2
+"12","Ps11","2","Small Tree Finch","other",2
+"13","Ps11","3","Small Ground Finch","M",2
+"14","Ps11","4","Medium Ground Finch","other",2
+"15","Ps11","4","Medium Ground Finch","M",3
+"16","Ps11","4","Small Ground Finch","other",6
+"17","Ps11","4","Small Ground Finch","M",6
+"18","Ps11","4","Warbler Finch","other",2
+"19","Ps12","1","Small Ground Finch","other",4
+"20","Ps12","5","Small Ground Finch","other",6
+"21","Ps12","5","Small Ground Finch","M",2
+"22","Ps12","5","Small Tree Finch","other",3
+"23","Ps14","1","Small Ground Finch","M",2
+"24","Ps14","3","Small Tree Finch","M",2
+"25","Ps15","2","Small Ground Finch","other",8
+"26","Ps15","2","Small Ground Finch","M",2
+"27","Ps16","4","Small Tree Finch","other",2
+"28","Ps16","5","Small Tree Finch","M",2
+"29","Ps17","3","Small Ground Finch","other",2
+"30","Ps17","5","Small Ground Finch","other",2
+"31","Ps18","4","Small Tree Finch","other",2
+"32","Ps18","5","Medium Ground Finch","other",3
+"33","Ps19","2","Medium Ground Finch","M",2
+"34","Ps19","2","Small Ground Finch","M",2
+"35","Ps19","4","Small Ground Finch","other",2
+"36","Ps19","4","Small Tree Finch","other",2
+"37","Ps22","3","Warbler Finch","other",3
+"38","Ps22","4","Warbler Finch","other",2
+"39","Ps23","2","Warbler Finch","other",2
+"40","Ps24","3","Warbler Finch","M",2
+"41","Ps26","1","Small Ground Finch","M",2
+"42","Ps26","1","Warbler Finch","M",2
+"43","Ps28","1","Warbler Finch","M",2
+"44","Ps30","5","Warbler Finch","other",2

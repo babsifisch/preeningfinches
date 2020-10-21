@@ -1,0 +1,15 @@
+ID;Observation Point ID from PS01 to PS30
+Visit;Number of visit at Observation Point
+Season;"Season 0 = dry season; 1 = wet season"
+Date;Date of Observation
+Dt;Day Time of Observation
+Pt;Time of preening event
+Daytime;Hour of Observation
+Preening;Preening with (1) and without (0)
+S;Species
+Sex;Male/Female/juvenile
+Wet;Condition of leaves wet (1), dry (0)
+Notes;
+Pe;Preening with (P+) and without (P-) leaves and preening on a P. galapageium tree but without leaves (Gt)
+Weather;light rain, heavy rain, no rain
+Sunny/Cloudy/Foggy;
