@@ -309,17 +309,13 @@ anova(m2,m3,m4,m5,m6)
 
 plot(allEffects(m2))
 
-coef(summary(m2)) %>%
-  as.data.frame %>%
-  rownames_to_column("Variable") %>%
-  mutate_if(is.numeric, funs(round(.,3))) %>%
-  var_mapping(Variable)  
-
+#95%-confidence interval#
 
 confint(m2) %>%
   exp
 
-#m3 is the best fitting model, m4 has only the significant effects included. 
+#sex seems to be irrelevant. m3 is the best fitting model, without sex. m4 has only the significant effects included. 
+
 
 #Check for double observations
 
