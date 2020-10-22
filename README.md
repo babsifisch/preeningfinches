@@ -1,3 +1,2 @@
-A line I wrote on my local computer
-A line I wroter
-adding a line
+This is the preening data analysis of the Darwin Finches for Sabine.
+Data collected by Timo.
