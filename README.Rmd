@@ -1,0 +1,14 @@
+---
+title: "README"
+author: "Barbara Fischer"
+date: "10/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Self-medication in Darwin's finches
+
+This is the analysis of the preening data of the Darwin Finches for Sabine Tebbich, data collected by Timo Schwemhofer. Latest data update (Data22_10_Timo.xlsx) has the double views excluded. 
