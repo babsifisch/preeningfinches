@@ -111,6 +111,7 @@ p4<-data1 %>%
 ggsave("preeningfig4.pdf", width = 18, height = 11, units = "cm")
 
 #now a plot for the effect of daytime on preening
+
 p5<-data1 %>% 
   ggplot() + 
   geom_bar(aes(x = daytime,fill = species)) + 
@@ -118,6 +119,8 @@ p5<-data1 %>%
                                                 c("2" = "Preening with leaves",
                                                   "1" = "Preening without leaves")))+
   ggtitle("Effect of daytime on preening")
+
+ggsave("daytimefig.pdf",width = 25, height = 11, units = "cm")
 
 #Preening with leaves as a function of daytime, separately for breeding and non-breeding season
 
@@ -143,7 +146,7 @@ p5b<-data1 %>%
   facet_wrap( ~ season, labeller = labeller(season =
                                               c("Breeding" = "Breeding season",
                                                 "Non-breeding" = "Non-breeding season")))+
-ggtitle("Preening events with wet leaves for daytime and Season")
+ggtitle("Wet leaves for daytime and season")
 
 ggsave("daytime_wetleaves_season.pdf",width = 25, height = 11, units = "cm")
 
@@ -278,8 +281,8 @@ p8<-data1 %>%
   ggplot() + 
   geom_histogram(aes(x = temperature,fill=season),col="grey",binwidth = 1.5) + 
   facet_wrap( ~ preening, labeller = labeller(preening =
-                                                c("2" = "Preening With Leaves",
-                                                  "1" = "Preening Without Leaves")))+
+                                                c("2" = "Preening with leaves",
+                                                  "1" = "Preening without leaves")))+
   ggtitle("Effect of temperature on preening")
 
 ggsave("tempertaturefig.pdf",width = 25, height = 11, units = "cm")
