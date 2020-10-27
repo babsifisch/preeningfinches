@@ -313,10 +313,10 @@ plot(allEffects(m4))
 plot(allEffects(m2))
 
 #Find the 95%-confidence interval for the odds.
-confint(m4) %>%
+confint(m4,method="boot") %>%
   exp
 
-###Interpretation model results, in terms of odds
+#Interpretation model results, in terms of odds
 #model results: Effect size estimates for season and daytime were similar with and without inclusion of sex and wetness of leaves as predictors. 
 #the odds of preening w leaves decreased by a factor of 0.40 (95% CI:0.25-0.52) for each hour increase in daytime.
 #the odds ratio of breeding season over non-breeding season was 0.10 (95% CI: 0.04-0.22), implying that the odds of preening with leaves were 90% smaller in the breeding season compared to the non-breeding season. 
